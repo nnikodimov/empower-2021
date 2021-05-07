@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: coffee
-        image: nginxdemos/hello
+        image: harbor-01a.livefire.solutions/library/nginxdemos/hello
         ports:
         - containerPort: 80
 ---
@@ -51,7 +51,7 @@ spec:
     spec:
       containers:
       - name: tea 
-        image: nginxdemos/hello
+        image: harbor-01a.livefire.solutions/library/nginxdemos/hello
         ports:
         - containerPort: 80
 ---
